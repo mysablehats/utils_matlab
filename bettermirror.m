@@ -3,5 +3,6 @@ function newskel = bettermirror(tdskel, skelldef)
 [~, newskel]  = inv_core(tdskel, skelldef, []);
 if 0
 skeldraw(tdskel(1:15,:),'f','W','m')
+hold on
 skeldraw(newskel(1:15,:),'f','A','m')
 end
